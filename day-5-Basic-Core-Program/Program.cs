@@ -13,6 +13,13 @@
 
             //Leap Year
             CheckLeapYear.LeapYear();
+         
+            //Power of 2
+            PowerOf2 pow = new PowerOf2();
+            pow.CheckPower(5);
+                
+
+
         }
-    }
+}
 }
