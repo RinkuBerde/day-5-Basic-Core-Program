@@ -10,6 +10,9 @@
             //Flip Coin 
             FlipCoin flipcoin = new FlipCoin();
             flipcoin.PercentageFlips(10);
+
+            //Leap Year
+            CheckLeapYear.LeapYear();
         }
     }
 }
