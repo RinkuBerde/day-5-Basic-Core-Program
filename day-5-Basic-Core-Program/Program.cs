@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
+            //print message
             Console.WriteLine("Welcome to Basic Core Program!!!");
+
+            //Flip Coin 
+            FlipCoin flipcoin = new FlipCoin();
+            flipcoin.PercentageFlips(10);
         }
     }
 }
