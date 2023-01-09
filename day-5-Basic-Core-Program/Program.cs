@@ -25,6 +25,12 @@
             //Prime Factorization
             PrimeFactorization.PrimeFactor();
 
+            //to Compute Quotient and Remainder
+            QuotientNRemainder div = new QuotientNRemainder();
+            div.Divide(315,3);
+
+         
+
 
 
 
