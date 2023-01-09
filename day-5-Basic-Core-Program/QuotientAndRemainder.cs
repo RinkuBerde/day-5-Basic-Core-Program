@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace day_5_Basic_Core_Program
 {
-    internal class QuotientNRemainder
+    internal class QuotientAndRemainder
     {
-
         public void Divide(int dividend, int divisor)
         {
             int quotient, remainder;
@@ -18,8 +17,6 @@ namespace day_5_Basic_Core_Program
             Console.WriteLine($"Quotient: {quotient}");
             Console.WriteLine($"Remainder: {remainder}");
 
-
         }
-    
     }
 }
